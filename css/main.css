@@ -1,0 +1,155 @@
+/***** BASE STYLES *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
+
+.full-width {
+  width: 1200px;
+}
+.half-width {
+  width: 600px;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 10px 10px 10px;
+}
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/***** HEADER *****/
+header {
+  background-image: url('../img/cover2.jpg');
+  height: 500px;
+  background-size: cover;
+  background-position: right bottom;
+}
+header h1 {
+  text-align: center;
+  padding-top: 160px;
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+  font-size: 110px;
+  color: white;
+}
+
+/***** ABOUT *****/
+.about {
+  height: 300px;
+  background: #3E7F43;
+}
+.about h3{
+  color: white;
+}
+.profile {
+  float: left;
+}
+.intro {
+  float: left;
+}
+.profile img {
+  padding-top: 30px;
+  padding-left: 250px;
+}
+.intro p {
+  padding-top: 30px;
+  width: 420px;
+  font-size: 23px;
+  line-height: 29px;
+  color: white;
+}
+
+/***** WORK *****/
+#gordie {
+  padding-top: 100px;
+}
+#yoga {
+  padding-top: 200px;
+}
+#poulson {
+  padding-top: 200px;
+}
+.work {
+  height: 800px;
+  text-align: center;
+}
+.work p {
+  color: #3E7F43;
+  border-left: #FFD700 solid;
+  padding-left: 10px;
+  font-size: 18px;
+}
+.work h3 {
+  color: #3E7F43;
+}
+.left-row {
+  float: left;
+}
+.right-row {
+  float: left;
+}
+
+.work img {
+  height: 150px;
+  padding: 20px;
+  margin-top: 40px;
+  border-right: #FFD700 solid;
+  border-bottom: #FFD700 solid;
+}
+.right-row ul {
+  list-style-type: none;
+}
+.right-row li {
+  padding-top: 120px;
+  text-align: left;
+  width: 470px;
+}
+
+
+/***** CONTACT *****/
+.contact {
+  height: 200px;
+  text-align: center;
+  background: #3E7F43;
+}
+.contact p, h3, h4 {
+    color: white;
+}
+.social {
+  float: left;
+  padding-top: 30px;
+}
+.info {
+  float: left;
+  padding-top: 30px;
+}
+.contact img {
+  height: 45px;
+  padding: 5px;
+}
+.info a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+}
+/***** FOOTER *****/
+footer {
+  clear: both;
+  text-align: center;
+  height: 20px;
+  padding-top: 8px;
+  border-bottom: #3E7F43 solid 15px;
+}
+footer p {
+  color: #3E7F43;
+  font-size: 12px;
+}
